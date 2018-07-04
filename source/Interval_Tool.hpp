@@ -1,3 +1,10 @@
+/**
+ * File              : ../source/Interval_Tool.hpp
+ * Author            : Pradeep Rajendran <pradeepunique1989@gmail.com>
+ * Date              : 03.07.2018
+ * Last Modified Date: 03.07.2018
+ * Last Modified By  : Pradeep Rajendran <pradeepunique1989@gmail.com>
+ */
 // Interval_Tool.hpp
 
 // Copyright 2016 Sandia Corporation. Under the terms of Contract DE-AC04-94AL85000 with Sandia Corporation, the U.S. Government retains certain rights in this software.
@@ -9,6 +16,8 @@
 #define INTERVAL_TOOL_HPP
 
 #include <vector>
+#include <cstddef>
+
 
 // intervals are defined by start-stop A-B distance pairs, in the vector
 class Interval_Tool

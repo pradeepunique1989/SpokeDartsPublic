@@ -1,3 +1,10 @@
+/**
+ * File              : ../source/Piercing.hpp
+ * Author            : Pradeep Rajendran <pradeepunique1989@gmail.com>
+ * Date              : 03.07.2018
+ * Last Modified Date: 03.07.2018
+ * Last Modified By  : Pradeep Rajendran <pradeepunique1989@gmail.com>
+ */
 // Piercing.hpp
 
 // Copyright 2016 Sandia Corporation. Under the terms of Contract DE-AC04-94AL85000 with Sandia Corporation, the U.S. Government retains certain rights in this software.
@@ -16,6 +23,8 @@
 #include "Interval_Tool.hpp"
 #include "Spheres.hpp"
 #include "Trimming_Tool.hpp"
+#include <algorithm>
+
 class Sphere_Container;
 
 class Piercing

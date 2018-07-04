@@ -1,3 +1,10 @@
+/**
+ * File              : ../source/Search_Structure.hpp
+ * Author            : Pradeep Rajendran <pradeepunique1989@gmail.com>
+ * Date              : 03.07.2018
+ * Last Modified Date: 03.07.2018
+ * Last Modified By  : Pradeep Rajendran <pradeepunique1989@gmail.com>
+ */
 // Search_Structure.hpp
 
 // Copyright 2016 Sandia Corporation. Under the terms of Contract DE-AC04-94AL85000 with Sandia Corporation, the U.S. Government retains certain rights in this software.
@@ -10,6 +17,7 @@
 #define SEARCH_STRUCTURE
 
 #include <cstddef>
+#include <limits>
 #include "Sphere_Container.hpp"
 #include "Search_Stats.hpp"
 #include "Trimming_Tool.hpp"
